@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Oracle.ManagedDataAccess.Core/2.19.80": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Oracle.ManagedDataAccess.Core/2.19.80": {
+      "sha512": "8ux9wnTCjJhTCham9ghfii+35TFVgXcXnFNdhIsuAraB7NsKu3bVY8Se4OLgtjDNlNymBNBJH7pycCq1Ik7G0w==",
+      "type": "package",
+      "path": "oracle.manageddataaccess.core/2.19.80",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PerfCounters/register_odpc_perfmon_counters.ps1",
+        "PerfCounters/unregister_odpc_perfmon_counters.ps1",
+        "info.txt",
+        "lib/netstandard2.0/Oracle.ManagedDataAccess.dll",
+        "oracle.manageddataaccess.core.2.19.80.nupkg.sha512",
+        "oracle.manageddataaccess.core.nuspec",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Oracle.ManagedDataAccess.Core >= 2.19.80"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Vladimir\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\2_ADO.NET\\ConnTest\\ConnTest\\ConnTest.csproj",
+      "projectName": "ConnTest",
+      "projectPath": "C:\\Users\\Vladimir\\source\\repos\\2_ADO.NET\\ConnTest\\ConnTest\\ConnTest.csproj",
+      "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vladimir\\source\\repos\\2_ADO.NET\\ConnTest\\ConnTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Oracle.ManagedDataAccess.Core": {
+            "target": "Package",
+            "version": "[2.19.80, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

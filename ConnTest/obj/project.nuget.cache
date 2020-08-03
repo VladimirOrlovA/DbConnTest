@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tmRSMwluAzCWqF+RMlcQN2PIjUyqMLYgtF3MIe8WHmtFkbPdTLhbrTVlCr180O1nCAxPic4Y0uV/Ufbh0EQjVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\2_ADO.NET\\ConnTest\\ConnTest\\ConnTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vladimir\\.nuget\\packages\\oracle.manageddataaccess.core\\2.19.80\\oracle.manageddataaccess.core.2.19.80.nupkg.sha512"
+  ],
+  "logs": []
+}
